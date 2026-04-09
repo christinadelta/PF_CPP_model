@@ -5,8 +5,6 @@ function [Eh,Eq] = pf_for_cpp_est(y,lambda)
 %
 % The model uses a discrete change-point mechanism on q and a leaky Beta
 % update on h. 
-% Particles are carried forward across blocks to simulate continuous 
-% within-session learning.
 %
 % Inputs:
 %   y       - binary outcome vector (1 = reward, 0 = no reward)
